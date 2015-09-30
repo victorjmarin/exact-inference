@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BIF VERSION="0.3"  xmlns="http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3 http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3/XMLBIFv0_3.xsd">
+<NETWORK>
+<NAME>Windows 95 Printer Troubleshooter</NAME>
+<PROPERTY>short = </PROPERTY>
+<PROPERTY>detailed = </PROPERTY>
+
+<VARIABLE TYPE="nature">
+	<NAME>Application</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect/Corrupt</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Document</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect/Corrupt</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Application Data</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect or corrupt</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Local Disk Space</NAME>
+	<OUTCOME>Greater than 2 Mb</OUTCOME>
+	<OUTCOME>Less than 2 Mb</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Print Spooling</NAME>
+	<OUTCOME>Enabled</OUTCOME>
+	<OUTCOME>Disabled</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer On and Online</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer Paper Supply</NAME>
+	<OUTCOME>Has Paper</OUTCOME>
+	<OUTCOME>No Paper</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printing over Network</NAME>
+	<OUTCOME>No (Local printer)</OUTCOME>
+	<OUTCOME>Yes (Network printer)</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Correct Driver</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Port thread/Prt Proc OK</NAME>
+	<OUTCOME>OK</OUTCOME>
+	<OUTCOME>Corrupt/Buggy</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>EMF OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>GDI Input OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Driver Configuration</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Driver File Status</NAME>
+	<OUTCOME>Reinstalled</OUTCOME>
+	<OUTCOME>Corrupt</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>GDI Output OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Correct Printer Selected</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PrintDataOut</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Net Printer Pathname</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Network Configuration</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer Driver Set Offline</NAME>
+	<OUTCOME>Online</OUTCOME>
+	<OUTCOME>Offline</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>NET OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Local Printer Cable</NAME>
+	<OUTCOME>Connected</OUTCOME>
+	<OUTCOME>Loose</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Correct Local Port</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Cable/Port Hardware</NAME>
+	<OUTCOME>Operational</OUTCOME>
+	<OUTCOME>Not Operational</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>LOCAL OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Print Environment</NAME>
+	<OUTCOME>DOS</OUTCOME>
+	<OUTCOME>Windows</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Port Mapping to Path</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>DOS-NET OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>DOS-LOCAL OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PC to PRT Transport</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer Memory</NAME>
+	<OUTCOME>Greater than 2 Mb</OUTCOME>
+	<OUTCOME>Less than 2 Mb</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer Timeouts</NAME>
+	<OUTCOME>Long Enough</OUTCOME>
+	<OUTCOME>Too Short</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Print Buffer</NAME>
+	<OUTCOME>Intact (not Corrupt)</OUTCOME>
+	<OUTCOME>Full or Corrupt</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Toner Supply</NAME>
+	<OUTCOME>Adequate</OUTCOME>
+	<OUTCOME>Low</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Print Data</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>No Output</NAME>
+	<OUTCOME>Normal Output</OUTCOME>
+	<OUTCOME>No Output</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>App Data Generation</NAME>
+	<OUTCOME>Fast Enough</OUTCOME>
+	<OUTCOME>Too Long</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Print Processing</NAME>
+	<OUTCOME>Fast Enough</OUTCOME>
+	<OUTCOME>Too Long</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Desk Speed</NAME>
+	<OUTCOME>OK</OUTCOME>
+	<OUTCOME>Too Slow</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Page Orientation</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer Printing Area</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Screen Matches Printer</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Non PS Complete</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Driver Config - Graphics</NAME>
+	<OUTCOME>Correct</OUTCOME>
+	<OUTCOME>Incorrect</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>EPS Graphic</NAME>
+	<OUTCOME>No (*.TIF,*.WMF,*.BMP)</OUTCOME>
+	<OUTCOME>Yes (*.EPS)</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Non PS Graphic</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Postscript Printer</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PS Graphic</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Graphics Distorted or Incomplete</NAME>
+	<OUTCOME>No</OUTCOME>
+	<OUTCOME>Yes</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>True Type Fonts</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Font Installation</NAME>
+	<OUTCOME>Verified</OUTCOME>
+	<OUTCOME>Faulty</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer Accepts Truetype</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>TT OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Non TT OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Fonts Missing or Distorted</NAME>
+	<OUTCOME>No</OUTCOME>
+	<OUTCOME>Yes</OUTCOME>
+	<PROPERTY>position = (7493.0, 5227.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Local Garbled OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7725.0, 5334.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Net Garbled OK</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7055.0, 5138.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Non PS Garbled</NAME>
+	<OUTCOME>No</OUTCOME>
+	<OUTCOME>Yes</OUTCOME>
+	<PROPERTY>position = (7507.0, 5045.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Hourglass Duration</NAME>
+	<OUTCOME>Fast Enough</OUTCOME>
+	<OUTCOME>Too Long</OUTCOME>
+	<PROPERTY>position = (7889.0, 5282.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Repeatable Problem</NAME>
+	<OUTCOME>Yes. Always the same</OUTCOME>
+	<OUTCOME>No. Different each time</OUTCOME>
+	<PROPERTY>position = (7082.0, 5370.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer Virtual Mem</NAME>
+	<OUTCOME>Adequate (&gt; 1 Mb)</OUTCOME>
+	<OUTCOME>Inadequate (&lt; 1 Mb)</OUTCOME>
+	<PROPERTY>position = (7086.0, 5069.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PS Error Memory</NAME>
+	<OUTCOME>No Error</OUTCOME>
+	<OUTCOME>Low Memory</OUTCOME>
+	<PROPERTY>position = (7488.0, 5434.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>testps.txt Output</NAME>
+	<OUTCOME>&gt; 1 Mb Available VM</OUTCOME>
+	<OUTCOME>&lt; 1 Mb Available VM</OUTCOME>
+	<PROPERTY>position = (7635.0, 5433.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PS Garbled</NAME>
+	<OUTCOME>No</OUTCOME>
+	<OUTCOME>Yes</OUTCOME>
+	<PROPERTY>position = (7321.0, 5409.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PS Complete</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7868.0, 5154.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Print to File</NAME>
+	<OUTCOME>Yes</OUTCOME>
+	<OUTCOME>No</OUTCOME>
+	<PROPERTY>position = (7430.0, 5033.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer Icon</NAME>
+	<OUTCOME>Normal</OUTCOME>
+	<OUTCOME>Grayed Out</OUTCOME>
+	<PROPERTY>position = (7131.0, 5300.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Garbled Output</NAME>
+	<OUTCOME>No</OUTCOME>
+	<OUTCOME>Yes</OUTCOME>
+	<PROPERTY>position = (7512.0, 5334.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Incomplete Page</NAME>
+	<OUTCOME>No</OUTCOME>
+	<OUTCOME>Yes</OUTCOME>
+	<PROPERTY>position = (7808.0, 5062.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Printer Queue</NAME>
+	<OUTCOME>Short</OUTCOME>
+	<OUTCOME>Long</OUTCOME>
+	<PROPERTY>position = (7858.0, 5424.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Net Speed</NAME>
+	<OUTCOME>OK</OUTCOME>
+	<OUTCOME>Slow</OUTCOME>
+	<PROPERTY>position = (7898.0, 5373.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Too Slow</NAME>
+	<OUTCOME>OK</OUTCOME>
+	<OUTCOME>Too Long</OUTCOME>
+	<PROPERTY>position = (7238.0, 5367.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PrtStatPaper</NAME>
+	<OUTCOME>No Error</OUTCOME>
+	<OUTCOME>Jam, Out, Bin Full</OUTCOME>
+	<PROPERTY>position = (7892.0, 5226.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PrtStatToner</NAME>
+	<OUTCOME>No Error</OUTCOME>
+	<OUTCOME>Low, None</OUTCOME>
+	<PROPERTY>position = (7599.0, 5046.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PrtStatMem</NAME>
+	<OUTCOME>No Error</OUTCOME>
+	<OUTCOME>Out of Memory</OUTCOME>
+	<PROPERTY>position = (7145.0, 5191.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>PrtStatOff</NAME>
+	<OUTCOME>No Error</OUTCOME>
+	<OUTCOME>OFFLINE, OFF</OUTCOME>
+	<PROPERTY>position = (7236.0, 5061.0)</PROPERTY>
+</VARIABLE>
+
+<DEFINITION>
+	<FOR>Application</FOR>
+	<TABLE>0.995 0.005</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Document</FOR>
+	<TABLE>0.995 0.005</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Application Data</FOR>
+	<GIVEN>Application</GIVEN>
+	<GIVEN>Document</GIVEN>
+	<TABLE>0.9999 1.0E-4 0.0 1.0 0.0 1.0 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Local Disk Space</FOR>
+	<TABLE>0.97 0.03</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Print Spooling</FOR>
+	<TABLE>0.95 0.05</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer On and Online</FOR>
+	<TABLE>0.9 0.1</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer Paper Supply</FOR>
+	<TABLE>0.98 0.02</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printing over Network</FOR>
+	<TABLE>0.8 0.2</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Correct Driver</FOR>
+	<TABLE>0.9 0.1</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Port thread/Prt Proc OK</FOR>
+	<TABLE>0.9999 1.0E-4</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>EMF OK</FOR>
+	<GIVEN>Application Data</GIVEN>
+	<GIVEN>Local Disk Space</GIVEN>
+	<GIVEN>Port thread/Prt Proc OK</GIVEN>
+	<TABLE>0.99 0.01 0.05 0.95 0.0 1.0 0.5 0.5 0.1 0.9 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>GDI Input OK</FOR>
+	<GIVEN>Application Data</GIVEN>
+	<GIVEN>Print Spooling</GIVEN>
+	<GIVEN>EMF OK</GIVEN>
+	<TABLE>1.0 0.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Driver Configuration</FOR>
+	<TABLE>0.99 0.01</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Driver File Status</FOR>
+	<TABLE>0.99 0.01</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>GDI Output OK</FOR>
+	<GIVEN>Correct Driver</GIVEN>
+	<GIVEN>GDI Input OK</GIVEN>
+	<GIVEN>Driver Configuration</GIVEN>
+	<GIVEN>Driver File Status</GIVEN>
+	<TABLE>0.99 0.01 0.2 0.8 0.9 0.1 0.5 0.5 0.1 0.9 0.5 0.5 0.5 0.5 0.5 0.5 0.1 0.9 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Correct Printer Selected</FOR>
+	<TABLE>0.99 0.01</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PrintDataOut</FOR>
+	<GIVEN>GDI Output OK</GIVEN>
+	<GIVEN>Correct Printer Selected</GIVEN>
+	<TABLE>0.99 0.01 0.0 1.0 0.0 1.0 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Net Printer Pathname</FOR>
+	<TABLE>0.97 0.03</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Network Configuration</FOR>
+	<TABLE>0.98 0.02</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer Driver Set Offline</FOR>
+	<TABLE>0.7 0.3</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>NET OK</FOR>
+	<GIVEN>Net Printer Pathname</GIVEN>
+	<GIVEN>Network Configuration</GIVEN>
+	<GIVEN>Printer Driver Set Offline</GIVEN>
+	<TABLE>0.99 0.01 0.0 1.0 0.1 0.9 0.5 0.5 0.0 1.0 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Local Printer Cable</FOR>
+	<TABLE>0.98 0.02</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Correct Local Port</FOR>
+	<TABLE>0.99 0.01</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Cable/Port Hardware</FOR>
+	<TABLE>0.99 0.01</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>LOCAL OK</FOR>
+	<GIVEN>Local Printer Cable</GIVEN>
+	<GIVEN>Correct Local Port</GIVEN>
+	<GIVEN>Cable/Port Hardware</GIVEN>
+	<TABLE>0.999 0.001 0.01 0.99 0.0 1.0 0.5 0.5 0.0 1.0 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Print Environment</FOR>
+	<TABLE>0.15 0.85</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Port Mapping to Path</FOR>
+	<TABLE>0.8 0.2</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>DOS-NET OK</FOR>
+	<GIVEN>Application Data</GIVEN>
+	<GIVEN>Net Printer Pathname</GIVEN>
+	<GIVEN>Network Configuration</GIVEN>
+	<GIVEN>Printer Driver Set Offline</GIVEN>
+	<GIVEN>Port Mapping to Path</GIVEN>
+	<TABLE>0.99 0.01 0.0 1.0 0.0 1.0 0.5 0.5 0.1 0.9 0.5 0.5 0.5 0.5 0.5 0.5 0.0 1.0 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.2 0.8 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>DOS-LOCAL OK</FOR>
+	<GIVEN>Application Data</GIVEN>
+	<GIVEN>Local Printer Cable</GIVEN>
+	<GIVEN>Correct Local Port</GIVEN>
+	<GIVEN>Cable/Port Hardware</GIVEN>
+	<TABLE>1.0 0.0 0.1 0.9 0.0 1.0 0.5 0.5 0.0 1.0 0.5 0.5 0.5 0.5 0.5 0.5 0.1 0.9 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PC to PRT Transport</FOR>
+	<GIVEN>Printing over Network</GIVEN>
+	<GIVEN>PrintDataOut</GIVEN>
+	<GIVEN>NET OK</GIVEN>
+	<GIVEN>LOCAL OK</GIVEN>
+	<GIVEN>Print Environment</GIVEN>
+	<GIVEN>DOS-NET OK</GIVEN>
+	<GIVEN>DOS-LOCAL OK</GIVEN>
+	<TABLE>1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer Memory</FOR>
+	<TABLE>0.95 0.05</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer Timeouts</FOR>
+	<TABLE>0.94 0.06</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Print Buffer</FOR>
+	<TABLE>0.85 0.15</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Toner Supply</FOR>
+	<TABLE>0.995 0.005</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Print Data</FOR>
+	<GIVEN>Printer On and Online</GIVEN>
+	<GIVEN>Printer Paper Supply</GIVEN>
+	<GIVEN>PC to PRT Transport</GIVEN>
+	<GIVEN>Printer Memory</GIVEN>
+	<GIVEN>Printer Timeouts</GIVEN>
+	<GIVEN>Print Buffer</GIVEN>
+	<GIVEN>Toner Supply</GIVEN>
+	<TABLE>0.99 0.01 0.01 0.99 0.02 0.98 0.5 0.5 0.0 1.0 0.5 0.5 0.5 0.5 0.5 0.5 0.1 0.9 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.0 1.0 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.0 1.0 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.0 1.0 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>No Output</FOR>
+	<GIVEN>Print Data</GIVEN>
+	<TABLE>1.0 0.0 0.0 1.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>App Data Generation</FOR>
+	<GIVEN>Print Spooling</GIVEN>
+	<TABLE>1.0 0.0 0.99000001 0.00999999</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Print Processing</FOR>
+	<GIVEN>Print Spooling</GIVEN>
+	<TABLE>0.99000001 0.00999999 1.0 0.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Desk Speed</FOR>
+	<GIVEN>Printer Memory</GIVEN>
+	<GIVEN>App Data Generation</GIVEN>
+	<GIVEN>Print Processing</GIVEN>
+	<TABLE>0.99900001 9.9999E-4 9.9999E-4 0.99900001 9.9999E-4 0.99900001 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Page Orientation</FOR>
+	<TABLE>0.95 0.05</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer Printing Area</FOR>
+	<TABLE>0.98 0.02</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Screen Matches Printer</FOR>
+	<TABLE>0.95 0.05</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Non PS Complete</FOR>
+	<GIVEN>Printer Memory</GIVEN>
+	<GIVEN>Page Orientation</GIVEN>
+	<GIVEN>Printer Printing Area</GIVEN>
+	<TABLE>0.99 0.01 0.1 0.9 0.00999999 0.99000001 0.5 0.5 0.3 0.7 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Driver Config - Graphics</FOR>
+	<TABLE>0.95 0.05</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>EPS Graphic</FOR>
+	<TABLE>0.99 0.01</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Non PS Graphic</FOR>
+	<GIVEN>Printer Memory</GIVEN>
+	<GIVEN>Driver Config - Graphics</GIVEN>
+	<GIVEN>EPS Graphic</GIVEN>
+	<TABLE>0.999 0.001 0.0 1.0 0.1 0.9 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Postscript Printer</FOR>
+	<TABLE>0.4 0.6</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PS Graphic</FOR>
+	<GIVEN>Printer Memory</GIVEN>
+	<GIVEN>Driver Config - Graphics</GIVEN>
+	<GIVEN>EPS Graphic</GIVEN>
+	<TABLE>0.999 0.001 1.0 0.0 0.1 0.9 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Graphics Distorted or Incomplete</FOR>
+	<GIVEN>Non PS Graphic</GIVEN>
+	<GIVEN>Postscript Printer</GIVEN>
+	<GIVEN>PS Graphic</GIVEN>
+	<TABLE>0.0 1.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>True Type Fonts</FOR>
+	<TABLE>0.9 0.1</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Font Installation</FOR>
+	<TABLE>0.98 0.02</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer Accepts Truetype</FOR>
+	<TABLE>0.9 0.1</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>TT OK</FOR>
+	<GIVEN>Printer Memory</GIVEN>
+	<GIVEN>Font Installation</GIVEN>
+	<GIVEN>Printer Accepts Truetype</GIVEN>
+	<TABLE>0.99000001 0.00999999 0.0 1.0 0.1 0.9 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Non TT OK</FOR>
+	<GIVEN>Printer Memory</GIVEN>
+	<GIVEN>Screen Matches Printer</GIVEN>
+	<GIVEN>Font Installation</GIVEN>
+	<TABLE>0.99000001 0.00999999 0.1 0.9 0.1 0.9 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Fonts Missing or Distorted</FOR>
+	<GIVEN>True Type Fonts</GIVEN>
+	<GIVEN>TT OK</GIVEN>
+	<GIVEN>Non TT OK</GIVEN>
+	<TABLE>0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Local Garbled OK</FOR>
+	<GIVEN>Application Data</GIVEN>
+	<GIVEN>Correct Driver</GIVEN>
+	<GIVEN>Cable/Port Hardware</GIVEN>
+	<GIVEN>Printer Memory</GIVEN>
+	<TABLE>1.0 0.0 0.2 0.8 0.1 0.9 0.5 0.5 0.4 0.6 0.5 0.5 0.5 0.5 0.5 0.5 0.2 0.8 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Net Garbled OK</FOR>
+	<GIVEN>Application Data</GIVEN>
+	<GIVEN>Correct Driver</GIVEN>
+	<GIVEN>Network Configuration</GIVEN>
+	<GIVEN>Printer Memory</GIVEN>
+	<TABLE>1.0 0.0 0.2 0.8 0.4 0.6 0.5 0.5 0.4 0.6 0.5 0.5 0.5 0.5 0.5 0.5 0.3 0.7 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Non PS Garbled</FOR>
+	<GIVEN>Printing over Network</GIVEN>
+	<GIVEN>Local Garbled OK</GIVEN>
+	<GIVEN>Net Garbled OK</GIVEN>
+	<TABLE>1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Hourglass Duration</FOR>
+	<GIVEN>App Data Generation</GIVEN>
+	<TABLE>0.99 0.01 0.1 0.9</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Repeatable Problem</FOR>
+	<GIVEN>Network Configuration</GIVEN>
+	<GIVEN>Cable/Port Hardware</GIVEN>
+	<TABLE>1.0 0.0 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer Virtual Mem</FOR>
+	<GIVEN>Postscript Printer</GIVEN>
+	<TABLE>0.98 0.02 1.0 0.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PS Error Memory</FOR>
+	<GIVEN>Postscript Printer</GIVEN>
+	<GIVEN>Printer Virtual Mem</GIVEN>
+	<TABLE>1.0 0.0 0.05 0.95 1.0 0.0 1.0 0.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>testps.txt Output</FOR>
+	<GIVEN>Postscript Printer</GIVEN>
+	<GIVEN>Printer Virtual Mem</GIVEN>
+	<TABLE>0.99900001 9.9999E-4 9.9999E-4 0.99900001 1.0 0.0 1.0 0.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PS Garbled</FOR>
+	<GIVEN>Non PS Garbled</GIVEN>
+	<GIVEN>Printer Virtual Mem</GIVEN>
+	<TABLE>1.0 0.0 0.1 0.9 0.0 1.0 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PS Complete</FOR>
+	<GIVEN>Non PS Complete</GIVEN>
+	<GIVEN>Printer Virtual Mem</GIVEN>
+	<TABLE>1.0 0.0 0.3 0.7 0.0 1.0 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Print to File</FOR>
+	<GIVEN>PrintDataOut</GIVEN>
+	<TABLE>0.8 0.2 0.2 0.8</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer Icon</FOR>
+	<GIVEN>Network Configuration</GIVEN>
+	<GIVEN>Printer Driver Set Offline</GIVEN>
+	<TABLE>0.9999 1.0E-4 0.7 0.3 0.25 0.75 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Garbled Output</FOR>
+	<GIVEN>Postscript Printer</GIVEN>
+	<GIVEN>Non PS Garbled</GIVEN>
+	<GIVEN>PS Garbled</GIVEN>
+	<TABLE>1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Incomplete Page</FOR>
+	<GIVEN>Non PS Complete</GIVEN>
+	<GIVEN>Postscript Printer</GIVEN>
+	<GIVEN>PS Complete</GIVEN>
+	<TABLE>0.0 1.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 0.0 1.0 0.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Printer Queue</FOR>
+	<TABLE>0.99 0.01</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Net Speed</FOR>
+	<GIVEN>Network Configuration</GIVEN>
+	<GIVEN>Desk Speed</GIVEN>
+	<GIVEN>Printer Queue</GIVEN>
+	<TABLE>0.99900001 9.9999E-4 0.25 0.75 0.0 1.0 0.5 0.5 0.25 0.75 0.5 0.5 0.5 0.5 0.5 0.5</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Too Slow</FOR>
+	<GIVEN>Printing over Network</GIVEN>
+	<GIVEN>Desk Speed</GIVEN>
+	<GIVEN>Net Speed</GIVEN>
+	<TABLE>1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PrtStatPaper</FOR>
+	<GIVEN>Printer Paper Supply</GIVEN>
+	<TABLE>0.99900001 9.9999E-4 9.9999E-4 0.99900001</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PrtStatToner</FOR>
+	<GIVEN>Toner Supply</GIVEN>
+	<TABLE>0.99900001 9.9999E-4 9.9999E-4 0.99900001</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PrtStatMem</FOR>
+	<GIVEN>Printer Memory</GIVEN>
+	<TABLE>0.99900001 9.9999E-4 0.2 0.8</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>PrtStatOff</FOR>
+	<GIVEN>Printer On and Online</GIVEN>
+	<TABLE>0.99000001 0.00999999 0.00999999 0.99000001</TABLE>
+</DEFINITION>
+</NETWORK>
+</BIF>
