@@ -107,6 +107,7 @@ Se dispone de las heurística exigidas:
 factores.
 + **Min. Fill:** devuelve la variable que al eliminarse introdujera menos conexiones nuevas.
 + **Min. Factor:** devuelve la variable que al eliminarse produjera el factor más pequeño.
+
 Así como de un orden de eliminación aleatorio, para ver la eficiencia de las heurísticas:
 + **Random:** orden de eliminación de variables aleatorio.
 
