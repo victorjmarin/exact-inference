@@ -71,7 +71,7 @@ razonamiento con conocimiento incierto** de la asignatura.
 >_"Toda variable que no sea antecesor (en la red) de alguna de las variables de consulta o de
 >evidencia, es irrelevante para la consulta y por tanto puede ser eliminada."_
 
-Si una variables es antecesora de otra en la red se determina según la siguiente proposición _(Dietz’s
+Si una variable es antecesora de otra en la red se determina según la siguiente proposición _(Dietz’s
 numbering scheme)_:
 
 >_“For two given nodes x and y of a tree T, x is an ancestor of y if and only if x occurs before y in
@@ -219,7 +219,7 @@ veces más que con el resto de heurísticas.
 + Material de la asignatura:
   * http://www.cs.us.es/cursos/iais/temas/tema07.pdf
 
-+ Librería Python para grafos pygraph:
++ Librería Python para grafos:
 
   * https://code.google.com/p/pythongraph/
 
